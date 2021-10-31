@@ -1,0 +1,77 @@
+* {
+  margin: 0 auto;
+  font-family: "Courgette", cursive;
+}
+header {
+  background-image: url(My\ Post.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+  margin: 0 auto;
+  color: white;
+}
+
+li {
+  display: inline;
+}
+
+#secondpart {
+  background-color: #30647b;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.raceimage,
+.subclassesimage,
+.backgroundsimage {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 150px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.raceimage {
+  background-image: url(Paper3.png);
+}
+
+.subclassesimage {
+  background-image: url(Paper2.png);
+}
+
+.backgroundsimage {
+  background-image: url(Paper4.png);
+}
+#secondpart h2 {
+  text-align: center;
+  padding-top: 15%;
+  font-size: 2.5em;
+}
+
+#thirdpart,
+#fifthpart {
+  display: inline-flex;
+  background-color: lightsteelblue;
+  padding: 10%;
+}
+
+.lineageimage {
+  width: 40%;
+  padding: 2%;
+}
+
+.lineagetext {
+  padding: 5%;
+  line-height: 2;
+}
+button {
+  margin-top: 3%;
+}
+
+#fourthpart {
+  display: inline-flex;
+  background-color: #30647b;
+  padding: 10%;
+  color: white;
+}
